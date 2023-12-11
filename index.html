@@ -1,0 +1,383 @@
+<html>
+    <head>
+        <title>PVPSIT</title>
+        <style>
+           body{
+            background-color:white;
+            font-family:'Times New Roman', Times, serif;
+           }
+           .topnav{
+            background-color:white;
+            overflow:hidden;
+           }
+           .topnav a{
+           float:left;
+           color:#000000;
+           text-align:centre;
+           padding:14px 16px;
+           text-decoration:none;
+           font-size:18px;
+
+
+           }
+           .topnav a:hover{
+            background-color:#ddd;
+            color:black;
+           }
+           .topnav a.active{
+            background-color:white;
+            color:black;
+           }
+           .gfg{
+            margin:3%;
+            position:relative;
+           }
+          .centered{
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+          }
+          .container{
+            text-align:center;
+            font-size:80px;
+          }
+          * {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.event {
+  width: 32%;
+  margin-right: 1%;
+  float: left;
+  background-color: #fff;
+  padding: 10px;
+}
+.event .heading {
+  border-bottom: 1px solid #46b7c1;
+  padding: 5px;
+  color: #fff;
+  background: #46b7c1;
+  text-align: center;
+  font-size:18px ;
+}
+.event ul li {
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+  list-style: none;
+  font-size:18px;
+}
+.event-date {
+  background: #46b7c1;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px 12px;
+  margin-right: 10px;
+}
+.placement img {
+     border:1px solid #dfdfdf;
+}
+.heading{
+  font-size:30px;
+  float:left;
+}
+.row {
+    margin: 0px 0px;
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: white;
+}
+.ccolumn3 {
+    float: left;
+    width: 20%;
+    padding: 0 0px;
+    box-shadow: 0 0 5px #BBB;
+    border: 1px solid #CCC;
+}
+.ccolumn4 {
+    float: left;
+    width: 80%;
+    padding: 0 0px;
+    box-shadow: 0 0 5px #BBB;
+    border: 1px solid #CCC;
+}
+.scroll-left {
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+* {
+    box-sizing: border-box;
+}
+
+        </style>
+    </head>
+    <body>
+        <img src="https://www.pvpsiddhartha.ac.in/new_images/head.jpg" alt="logo" width="100%" height="auto">
+        <div class="topnav">
+           <a class="active" href="#Home">Home</a>
+           <a href="#About">About</a>
+           <a href="#Admissions">Admissions</a>
+           <a href="#Academics">Academics</a>
+           <a href="#Autonomous">Autonomous</a>
+           <a href="#Departments">Departments</a>
+           <a href="#TP">T&P</a>
+           <a href="#Research">Research & Innovation</a>
+           <a href="#Student Corner">Student Corner</a>
+           <a href="#Facilities">Facilities</a>
+           <a href="#Social Media">Social Media</a>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="https://www.pvpsiddhartha.ac.in/new_images/2022-23%206plus.jpg" style="width:100%" "height:auto">
+              <div class="text">Caption Text</div>
+            </div>
+         
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="https://www.pvpsiddhartha.ac.in/new_images/last%203%20years%20top%205.jpg" style="width:100%" "height:auto">
+              <div class="text">Caption Two</div>
+            </div>
+         
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="https://www.pvpsiddhartha.ac.in/new_images/Banner4.jpg" style="width:100%" "height:auto">
+              <div class="text">Caption Three</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+<div class="main-section" style="background:#f0f3fa">
+    <div class="container">
+      <div class="event">
+        <h2 class="heading">Campus News</h2>
+        <div>
+          <marquee direction="up" scrollamount="7" style="height:340px;">
+            <ul>
+              <li>
+                <i>11-December-2023 :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="images/new.gif">
+              </li>
+              <li>
+                <i>11-December-2023  :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="images/new.gif">
+              </li>
+              <li>
+                <i>11-December-2023  :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="images/new.gif">
+              </li>
+              <li>
+                <i>11-December-2023  :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="images/new.gif">
+              </li>
+              <li>
+                <i>11-December-2023  :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="images/new.gif">
+              </li>
+              <li>
+                <i>11-December-2023  :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="images/new.gif">
+              </li>
+              <li>
+                <i>11-December-2023  :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="images/new.gif">
+              </li>
+            </ul>
+          </marquee>
+        </div>
+      </div>
+      <div class="event">
+        <h2 class="heading">Events</h2>
+        <div>
+          <ul>
+            <li>
+              <span class="event-date">11 <br> December </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <span class="event-date">11 <br> December </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <span class="event-date">11 <br> December </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <span class="event-date">11 <br> December </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <span class="event-date">11 <br> December </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="event">
+        <h2 class="heading">Notice Boards</h2>
+        <div>
+          <ul>
+            <li>
+              <img src="images/folder.png"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <img src="images/folder.png"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <img src="images/folder.png"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <img src="images/folder.png"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <img src="images/folder.png"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <img src="images/folder.png"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+<div class="ccolumn3">
+  <img src="	https://www.pvpsiddhartha.ac.in/new_images/our%20recruiters.jpg" width="100%">
+</div>
+<div class="ccolumn4">
+  <div class="scroll left">
+    <div class="inner">
+  <img src="	https://www.pvpsiddhartha.ac.in/new_images/recruit1.jpg" width="100%">
+</div>
+</div>
+</div>
+</div>
+  
+  
+  
+          <script>
+            let slideIndex = 1;
+showSlides(slideIndex);
+
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+          </script>
+    </body>
+</html>
+
+
+
